@@ -1,0 +1,12 @@
+{
+  "name": "backendtodolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sabrinacasemiro/backend-ToDoList.git",
+  "author": "<sabrincasemiro@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
