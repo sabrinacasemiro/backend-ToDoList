@@ -1,9 +1,11 @@
 import express from "express"
 import data from "./data/index.js"
+import cors from "cors"
 
 const api = express()
 
 api.use(express.json())
+api.use(cors())
 
 api.get('/taskList', (req, res) => {
     return res.send(data.read())
